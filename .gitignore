@@ -4,7 +4,7 @@
 .DS_Store
 Thumbs.db
 
-# VS Code settings
+# VS Code
 **/.vscode/
 
 # IntelliJ IDEA
@@ -34,11 +34,22 @@ Thumbs.db
 **/build/
 **/logs/
 **/test-output/
+**/*.log
 
+# ---------------------
 # Maven / Gradle Wrappers
+# ---------------------
 **/.mvn/
 **/mvnw
 **/mvnw.cmd
 **/gradlew
 **/gradlew.bat
 **/gradle/
+
+# ---------------------
+# Backup & Temp Files
+# ---------------------
+*~
+*.bak
+*.swp
+*.tmp
