@@ -1,50 +1,44 @@
-# === Java & Maven ===
-*.class
-*.jar
-*.war
-*.ear
-*.iml
-*.log
-*.tmp
-
-# Maven
-target/
-dependency-reduced-pom.xml
-buildNumber.properties
-release.properties
-
-# === IntelliJ IDEA ===
-*.iws
-*.ipr
-.idea/
-out/
-
-# === VS Code ===
-.vscode/
-
-# === OS Generated Files ===
+# ---------------------
+# OS / Editor / IDE Files
+# ---------------------
 .DS_Store
 Thumbs.db
 
-# === Logs ===
-*.log
+# VS Code settings
+**/.vscode/
 
-# === Environment Files ===
-.env
+# IntelliJ IDEA
+**/.idea/
+**/*.iml
+**/out/
 
-# === Backup files ===
-*~ 
-*.bak
-*.swp
-*.swo
+# Eclipse
+**/.project
+**/.classpath
+**/.settings/
+**/bin/
 
-# === Node.js (if used anywhere) ===
-node_modules/
+# NetBeans
+**/nbproject/private/
+**/build/
+**/nbbuild/
+**/dist/
+**/nbdist/
+**/.nb-gradle/
 
-# === Other common build folders ===
-bin/
-build/
+# ---------------------
+# Java / Build Artifacts
+# ---------------------
+**/*.class
+**/target/
+**/build/
+**/logs/
+**/test-output/
 
-# === Specific to your structure ===
-client-application/target/
-config-server/target/
+# Maven / Gradle Wrappers
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+**/gradlew
+**/gradlew.bat
+**/gradle/
