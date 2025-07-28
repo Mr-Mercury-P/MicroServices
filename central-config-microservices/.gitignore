@@ -1,0 +1,50 @@
+# === Java & Maven ===
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+
+# Maven
+target/
+dependency-reduced-pom.xml
+buildNumber.properties
+release.properties
+
+# === IntelliJ IDEA ===
+*.iws
+*.ipr
+.idea/
+out/
+
+# === VS Code ===
+.vscode/
+
+# === OS Generated Files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
+
+# === Environment Files ===
+.env
+
+# === Backup files ===
+*~ 
+*.bak
+*.swp
+*.swo
+
+# === Node.js (if used anywhere) ===
+node_modules/
+
+# === Other common build folders ===
+bin/
+build/
+
+# === Specific to your structure ===
+client-application/target/
+config-server/target/
